@@ -19,3 +19,5 @@ permalink: /about/
 ### Contact me
 
 [roger.w.shaw@utexas.edu](mailto:roger.w.shaw@utexas.edu)
+
+Check the favicons on the bottom of this page as well.
