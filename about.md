@@ -4,12 +4,18 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+* Born and raised in the Piedmont of North Carolina.
+* Got my B.A. in Biology and Environmental Studies from Swarthmore College, Swarthmore, PA.
+* Just recently finished my Ph.D. in Ecology, Evolution, and Behavior, from the The University of Texas at Austin, Austin, TX.
+* Now transitioning into a career in data science!
 
-### More Information
+### Skills
 
-A place to include any other types of information that you'd like to include about yourself.
+* Proficient in R, NetLogo, and Microsoft Excel
+* Have small amounts of experience with SAS, Octave
+* Currently learning Python, database wrangling
+
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[roger.w.shaw@utexas.edu](mailto:roger.w.shaw@utexas.edu)
