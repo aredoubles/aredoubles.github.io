@@ -72,4 +72,4 @@ Here's the final result!
 ![image](/images/tcc.jpg)
 
 Coming soon, I'm working on making interactive maps, where you can fully explore the map by zooming, clicking on counties for full information, etc.
-I'm also working on grabbing the species count data from web scraps, though that work is further away.
+I'm also working on grabbing the species count data from web scrapes, though that work is further away.

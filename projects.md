@@ -4,11 +4,11 @@ title: Projects
 permalink: /projects/
 ---
 
-### *County birding in Texas*
-R script for building maps of bird diversity in counties of Texas, and my own personal bird lists throughout. Involves importing geographical layers from GIS into R, and joining count data with spatial data to build maps. Will add to Github soon. Working on adding web scraping, and interactive maps.
+### [*County birding in Texas*](https://aredoubles.github.io/ImportingShapefiles/)
+Simple R script for building maps of bird diversity in counties of Texas, and my own personal bird lists throughout. Involves importing geographical layers from GIS into R, and joining count data with spatial data to build maps. Will add code to Github soon. Working on adding web scraping, and interactive maps.
 
 ### *Optimal fantasy sports draft strategy*
-R scripts and Excel spreadsheets for developing an optimal strategy for drafting players in fantasy sports. Lesson in a nutshell: absolute benefits do not matter, it is marginal benefits that matter most, and they must be weighted by player positions. Scarcity of production in some player positions result in hugely valuable players should be targeted more than commonly done. Likely won't post on Github, to maintain my own competitive advantage for now...
+R scripts and Excel spreadsheets for developing an optimal strategy for drafting players in fantasy sports. Lesson in a nutshell: absolute benefits do not matter, it is marginal benefits that matter most, and they must be weighted by player positions. Scarcity of production in some player positions result in hugely valuable players that should be targeted more than commonly done. Likely won't post on Github, to maintain my own competitive advantage for now...
 
 ### [*Sex-biased dispersal*](https://github.com/aredoubles/SexBiasedDispersal)
 NetLogo model examining what happens when males and females disperse differently.
