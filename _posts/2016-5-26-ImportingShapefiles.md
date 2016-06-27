@@ -19,7 +19,8 @@ zip <- readShapePoly("TexasCenturyClub/Counties/Counties.shp")
 
 That's it!
 Of course, you'll then want to plot this shapefile in some way.
-Let's try plotting the number of birds species that I've seen in each Texas county.
+
+Let's try plotting the number of birds species that I've seen in each Texas county, in my efforts towards the [**Texas Century Club**](http://www.vtbirder.com/texas-century-club/).
 
 First, we need to define the interval breaks and color palettes for plotting.
 Here, we'll define the interval breaks ourselves, and use a pre-made color palette from the `wesanderson` library, called 'Zissou'.
