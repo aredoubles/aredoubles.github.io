@@ -3,7 +3,9 @@ layout: page
 title: Projects
 permalink: /projects/
 ---
+
 ---
+
 ### ECOLOGICAL RESEARCH MODELS
 
 ### [*Sex-biased dispersal*](https://github.com/aredoubles/SexBiasedDispersal)
