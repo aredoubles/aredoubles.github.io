@@ -3,7 +3,7 @@ layout: post
 title: Importing Map Shapefiles
 ---
 
-Importing shapefiles are useful for building maps, and especially for seeing how variables are expressed spatially. 
+Importing shapefiles can be useful for building maps, and especially for seeing how variables are expressed spatially. 
 
 Shapefiles for many geographical layers are publicly available. For instance, [Texas Parks and Wildlife](http://tpwd.texas.gov/gis/data) provides many useful shapefiles.
 
