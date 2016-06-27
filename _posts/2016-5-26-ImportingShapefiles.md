@@ -22,7 +22,7 @@ Of course, you'll then want to plot this shapefile in some way.
 Let's try plotting the number of birds species that I've seen in each Texas county.
 
 First, we need to define the interval breaks and color palettes for plotting.
-Here, we'll define the interval breaks ourselves, and use a pre-made color palette from the 'wesanderson' library, called 'Zissou'.
+Here, we'll define the interval breaks ourselves, and use a pre-made color palette from the `wesanderson` library, called 'Zissou'.
 You can also ask R to determine the interval breaks itself, as commented below.
 
 We have a dataset called 'tcc', which lists how many species I've seen in each county.
@@ -33,21 +33,21 @@ Let's merge that with our shapefile. The county names obviously match.
 zip$Species <- tcc$Species
 ```
 
-Set color breaks
+Now we'll set the break points for coloring.
 Fewer breaks makes color distinction easier. 
-Want to be symmetric around 100 for this specific case
-Max break point must be ABOVE max observed value
+For this specific case, we want our breaks to be symmetric around 100, as that's an important threshold.
+The max break point must be ABOVE the max observed value.
 
 ```
 cats <- c(0,20,50,75,100,125,150,300)
 ```
 
-Zissou color pallete, interpolated to match number of break points
+Now we bring in the Zissou color pallete, interpolated to match the number of break points.
 
 ```
 colors <- wes_palette("Zissou", length(cats), type="continuous")
-brks<-classIntervals(zip$Species, n=length(cats), style="fixed", fixedBreaks=cats)
-brks<-brks$brks 
+brks <- classIntervals(zip$Species, n=length(cats), style="fixed", fixedBreaks=cats)
+brks <- brks$brks 
 ```
 
 Now let's do the actual plotting!
@@ -73,4 +73,4 @@ Here's the final result!
 ![image](/images/tcc.jpg)
 
 Coming soon, I'm working on making interactive maps, where you can fully explore the map by zooming, clicking on counties for full information, etc.
-I'm also working on grabbing the species count data from web scrapes, though that work is further away.
+I'm also working on grabbing the species count data directly from web scrapes, though that work is further away.
