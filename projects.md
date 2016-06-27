@@ -3,7 +3,7 @@ layout: page
 title: Projects
 permalink: /projects/
 ---
-### ECOLOGICAL MODELS
+### **ECOLOGICAL RESEARCH MODELS**
 
 ### [*Sex-biased dispersal*](https://github.com/aredoubles/SexBiasedDispersal)
 NetLogo model examining what happens when males and females disperse differently.
@@ -17,7 +17,7 @@ NetLogo model examining how beneficial microbes can coexist with cheaters.
 ### [*Habitat selection and stability*](https://github.com/aredoubles/HabSelStability)
 In progress, a NetLogo model on how intelligent habitat selection can affect stability of populations.
 
-### MISC. PROJECTS
+### **MISC. PROJECTS**
 
 ### [*County birding in Texas*](https://aredoubles.github.io/ImportingShapefiles/)
 Simple R script for building maps of bird diversity in counties of Texas, and my own personal bird lists throughout. Involves importing geographical layers from GIS into R, and joining count data with spatial data to build maps. Will add full code to Github soon. Working on adding web scraping, and interactive maps.
