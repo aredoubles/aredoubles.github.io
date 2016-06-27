@@ -14,9 +14,6 @@ To import a shapefile:
 
 ```
 library("maptools")
-```
-
-```
 zip <- readShapePoly("TexasCenturyClub/Counties/Counties.shp")
 ```
 
@@ -32,14 +29,18 @@ We have a dataset called 'tcc', which lists how many species I've seen in each c
 
 Let's merge that with our shapefile. The county names obviously match.
 
-```zip$Species <- tcc$Species```
+```
+zip$Species <- tcc$Species
+```
 
 Set color breaks
 Fewer breaks makes color distinction easier. 
 Want to be symmetric around 100 for this specific case
 Max break point must be ABOVE max observed value
 
-```cats <- c(0,20,50,75,100,125,150,300)```
+```
+cats <- c(0,20,50,75,100,125,150,300)
+```
 
 Zissou color pallete, interpolated to match number of break points
 
